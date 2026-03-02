@@ -1,0 +1,29 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --font-main: 'Inter';
+  --font-accent: 'PressStart2P';
+  --font-width-normal: 410;
+  --font-width-bold: 715;
+  --font-size-title: 49px;
+  --font-size-subtitle: 18px;
+  --font-size-desc: 14px;
+  --font-size-text: 14px;
+  --main-color: black;
+  --bg-color: white;
+  --accent-color: white;
+  --text-shadow-color: white;
+  --contour-color: black;
+  --icon-color-base: transparent;
+  --icon-color-hover: black;
+  --icon-color-active: #ff0000;
+  --content-size: 700px;
+  --border-width: 2px;
+}
+
+@media (width >= 1440px) {
+  :root {
+    --font-size-title: 65px;
+    --font-size-desc: 23px;
+  }
+}
