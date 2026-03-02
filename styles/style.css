@@ -89,13 +89,15 @@
   color: var(--main-color);
   font-family: var(--font-accent), sans-serif;
   font-size: var(--font-size-text);
-  text-shadow:
-    -1px -1px 0 var(--text-shadow-color),
-    1px -1px 0 var(--text-shadow-color),
-    -1px 1px 0 var(--text-shadow-color),
-    1px 1px 0 var(--text-shadow-color);
 }
 
+@supports (-webkit-text-stroke: 1px var(--text-stroke-color)) or (text-stroke: 1px var(--text-stroke-color)) {
+  .post_image_wrapper::before {
+    text-shadow: none;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+    text-stroke: 1px var(--text-stroke-color);
+  }
+}
 .post_image {
   display: block;
   width: 100%;
