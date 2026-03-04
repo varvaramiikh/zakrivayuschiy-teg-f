@@ -5,7 +5,7 @@
   --font-accent: 'PressStart2P';
   --font-width-normal: 410;
   --font-width-bold: 715;
-  --font-size-title: 49px;
+  --font-size-title: clamp(49px, 5vw, 65px);
   --font-size-subtitle: 18px;
   --font-size-desc: 14px;
   --font-size-text: 14px;
@@ -23,7 +23,6 @@
 
 @media (width >= 1440px) {
   :root {
-    --font-size-title: 65px;
     --font-size-desc: 23px;
   }
 }

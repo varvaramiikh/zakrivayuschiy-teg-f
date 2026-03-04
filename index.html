@@ -11,21 +11,23 @@
   <link rel="stylesheet" href="./styles/style.css" />
   <link rel="stylesheet" href="./styles/animations.css" />
   <link rel="icon" href="images/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="images/favicon.png"> 
 </head>
 
 <body class="page">
   <header class="header">
     <h1 class="header_title">&lt;/HTML&gt;</h1>
-    <h2 class="header_desc">закрывающий тег</h2>
+    <p class="header_desc">закрывающий тег</p>
   </header>
   <main class="main">
     <ul class="posts">
-      <li class="post sprint_0_prep">
+      <li class="post">
         <h2 class="post_title">
           Фритрек и нулевой спринт: Подготовка к работе
         </h2>
         <div class="post_image_wrapper">
-          <img class="post_image" src="./images/post_img.png" alt="Обложка поста: Подготовка к работе" />
+          <span class="post_image_label">&lt;/HTML&gt;</span>
+          <img class="post_image" src="./images/post_img.png" loading="lazy" alt="Обложка поста: Подготовка к работе" />
         </div>
         <div class="post_content_block">
           <div class="post_content">
@@ -34,12 +36,12 @@
               основами и настроиться на учёбу. И, возможно, подумать, как новые
               знания могут повлиять на ваше будущее.
             </p>
-            <p class="post_text post_memory">
+            <p class="post_text">
               Место для ваших воспоминаний о начале обучения.
             </p>
           </div>
           <div class="post_buttons">
-            <button class="post_heart card__icon-button">
+            <button class="post_heart card__icon-button" type="button" aria-label="Поставить нравится">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
@@ -58,18 +60,19 @@
                   fill="var(--icon-color-active)" />
               </svg>
             </button>
-            <button class="post_like card__like-button button_effect">
+            <button class="post_like card__like-button button_effect" type="button">
               <span class="post_like_text button__text button_effect_text">Like</span>
             </button>
           </div>
         </div>
       </li>
-      <li class="post sprint_1_start">
+      <li class="post">
         <h2 class="post_title">
           1 спринт: Я — чистый лист
         </h2>
         <div class="post_image_wrapper">
-          <img class="post_image" src="./images/post_img.png" alt="Обложка поста: Я - чистый лист" />
+          <span class="post_image_label">&lt;/HTML&gt;</span>
+          <img class="post_image brightness_img" src="./images/post_img.png" loading="lazy" alt="Обложка поста: Я - чистый лист" />
         </div>
         <div class="post_content_block">
           <div class="post_content">
@@ -79,12 +82,12 @@
               ощущением скрываются более глубокие вопросы: с чего начать? а вдруг будет слишком сложно? что, если я не
               справлюсь?
             </p>
-            <p class="post_text post_memory">
+            <p class="post_text">
               Место для ваших воспоминаний о начале первого спринта.
             </p>
           </div>
           <div class="post_buttons">
-            <button class="post_heart card__icon-button">
+            <button class="post_heart card__icon-button" type="button" aria-label="Поставить нравится">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
@@ -103,18 +106,19 @@
                   fill="var(--animation-fill-color)" />
               </svg>
             </button>
-            <button class="post_like card__like-button button_effect">
+            <button class="post_like card__like-button button_effect" type="button">
               <span class="post_like_text button__text button_effect_text">Like</span>
             </button>
           </div>
         </div>
       </li>
-      <li class="post sprint_1_doubt">
+      <li class="post">
         <h2 class="post_title">
           1 спринт: А если не получится?
         </h2>
         <div class="post_image_wrapper">
-          <img class="post_image" src="./images/post_img.png" alt="Обложка поста: А если не получится?" />
+          <span class="post_image_label">&lt;/HTML&gt;</span>
+          <img class="post_image saturate_img" src="./images/post_img.png" loading="lazy" alt="Обложка поста: А если не получится?" />
         </div>
         <div class="post_content_block">
           <div class="post_content">
@@ -122,12 +126,12 @@
               Первый проект — позади! Но это всё ещё самое начало пути. Радость могла быстро померкнуть и смениться
               ожиданием провала. Или вы, наоборот, могли вдохновиться успехами и поверить в себя.
             </p>
-            <p class="post_text post_memory">
+            <p class="post_text">
               Место для ваших воспоминаний об окончании первого спринта.
             </p>
           </div>
           <div class="post_buttons">
-            <button class="post_heart card__icon-button">
+            <button class="post_heart card__icon-button" type="button" aria-label="Поставить нравится">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
@@ -146,18 +150,19 @@
                   fill="var(--animation-fill-color)" />
               </svg>
             </button>
-            <button class="post_like card__like-button button_effect">
+            <button class="post_like card__like-button button_effect" type="button">
               <span class="post_like_text button__text button_effect_text">Like</span>
             </button>
           </div>
         </div>
       </li>
-      <li class="post sprint_2_ideal">
+      <li class="post">
         <h2 class="post_title">
           2 спринт: Погоня за идеалом
         </h2>
         <div class="post_image_wrapper">
-          <img class="post_image" src="./images/post_img.png" alt="Обложка поста: Погоня за идеалом" />
+          <span class="post_image_label">&lt;/HTML&gt;</span>
+          <img class="post_image contrast_img" src="./images/post_img.png" loading="lazy" alt="Обложка поста: Погоня за идеалом" />
         </div>
         <div class="post_content_block">
           <div class="post_content">
@@ -166,12 +171,12 @@
               могли попытаться погнаться за идеалом и понять, что он недостижим. А, может, вы вовсе и не подвержены
               перфекционизму и вместо того, чтобы сделать идеально, старались просто сделать.
             </p>
-            <p class="post_text post_memory">
+            <p class="post_text">
               Место для ваших воспоминаний о начале второго спринта.
             </p>
           </div>
           <div class="post_buttons">
-            <button class="post_heart card__icon-button">
+            <button class="post_heart card__icon-button" type="button" aria-label="Поставить нравится">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
@@ -190,18 +195,19 @@
                   fill="var(--animation-fill-color)" />
               </svg>
             </button>
-            <button class="post_like card__like-button button_effect">
+            <button class="post_like card__like-button button_effect" type="button">
               <span class="post_like_text button__text button_effect_text">Like</span>
             </button>
           </div>
         </div>
       </li>
-      <li class="post sprint_2_support">
+      <li class="post">
         <h2 class="post_title">
           2 спринт: О тех, кто рядом
         </h2>
         <div class="post_image_wrapper">
-          <img class="post_image" src="./images/post_img.png" alt="Обложка поста: О тех, кто рядом" />
+          <span class="post_image_label">&lt;/HTML&gt;</span>
+          <img class="post_image sepia_img" src="./images/post_img.png" loading="lazy" alt="Обложка поста: О тех, кто рядом" />
         </div>
         <div class="post_content_block">
           <div class="post_content">
@@ -211,12 +217,12 @@
               очередной макет просто так не поддавался. Осваивать что-то новое легче, когда рядом есть единомышленники,
               не правда ли?
             </p>
-            <p class="post_text post_memory">
+            <p class="post_text">
               Место для ваших воспоминаний об окончании второго спринта.
             </p>
           </div>
           <div class="post_buttons">
-            <button class="post_heart card__icon-button">
+            <button class="post_heart card__icon-button" type="button" aria-label="Поставить нравится">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
@@ -235,18 +241,19 @@
                   fill="var(--animation-fill-color)" />
               </svg>
             </button>
-            <button class="post_like card__like-button button_effect">
+            <button class="post_like card__like-button button_effect" type="button">
               <span class="post_like_text button__text button_effect_text">Like</span>
             </button>
           </div>
         </div>
       </li>
-      <li class="post sprint_3_detour">
+      <li class="post">
         <h2 class="post_title">
           3 спринт: Обходные стратегии
         </h2>
         <div class="post_image_wrapper">
-          <img class="post_image" src="./images/post_img.png" alt="Обложка поста: Обходные стратегии" />
+          <span class="post_image_label">&lt;/HTML&gt;</span>
+          <img class="post_image blurgray_img" src="./images/post_img.png" loading="lazy" alt="Обложка поста: Обходные стратегии" />
         </div>
         <div class="post_content_block">
           <div class="post_content">
@@ -254,12 +261,12 @@
               На этом курсе вы постоянно решали разные задачи. В какой-то момент вам могло показаться, что решения
               просто иссякли. Значит, пришло время посмотреть на задачу под другим углом.
             </p>
-            <p class="post_text post_memory">
+            <p class="post_text">
               Место для ваших воспоминаний о начале третьего спринта.
             </p>
           </div>
           <div class="post_buttons">
-            <button class="post_heart card__icon-button">
+            <button class="post_heart card__icon-button" type="button" aria-label="Поставить нравится">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
@@ -278,18 +285,19 @@
                   fill="var(--animation-fill-color)" />
               </svg>
             </button>
-            <button class="post_like card__like-button button_effect">
+            <button class="post_like card__like-button button_effect" type="button">
               <span class="post_like_text button__text button_effect_text">Like</span>
             </button>
           </div>
         </div>
       </li>
-      <li class="post sprint_3_burnout">
+      <li class="post">
         <h2 class="post_title">
           3 спринт: Когда опускаются руки
         </h2>
         <div class="post_image_wrapper">
-          <img class="post_image" src="./images/post_img.png" alt="Обложка поста: Когда опускаются руки" />
+          <span class="post_image_label">&lt;/HTML&gt;</span>
+          <img class="post_image hue-rotate_img" src="./images/post_img.png" loading="lazy" alt="Обложка поста: Когда опускаются руки" />
         </div>
         <div class="post_content_block">
           <div class="post_content">
@@ -298,12 +306,12 @@
               и задачи хочется порешать, и в теории получше разобраться, и жизнь не забыть пожить. В такие моменты очень
               нужна концентрация. Вспомните, откуда вы её черпали.
             </p>
-            <p class="post_text post_memory">
+            <p class="post_text">
               Место для ваших воспоминаний об окончании третьего спринта.
             </p>
           </div>
           <div class="post_buttons">
-            <button class="post_heart card__icon-button">
+            <button class="post_heart card__icon-button" type="button" aria-label="Поставить нравится">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
@@ -322,18 +330,19 @@
                   fill="var(--animation-fill-color)" />
               </svg>
             </button>
-            <button class="post_like card__like-button button_effect">
+            <button class="post_like card__like-button button_effect" type="button">
               <span class="post_like_text button__text button_effect_text">Like</span>
             </button>
           </div>
         </div>
       </li>
-      <li class="post sprint_4_now">
+      <li class="post">
         <h2 class="post_title">
           «Сейчас я здесь»
         </h2>
         <div class="post_image_wrapper">
-          <img class="post_image" src="./images/post_img.png" alt="Обложка поста: Сейчас я здесь" />
+          <span class="post_image_label">&lt;/HTML&gt;</span>
+          <img class="post_image invert_img" src="./images/post_img.png" loading="lazy" alt="Обложка поста: Сейчас я здесь" />
         </div>
         <div class="post_content_block">
           <div class="post_content">
@@ -348,7 +357,7 @@
             </p>
           </div>
           <div class="post_buttons">
-            <button class="post_heart card__icon-button">
+            <button class="post_heart card__icon-button" type="button" aria-label="Поставить нравится">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
@@ -367,7 +376,7 @@
                   fill="var(--animation-fill-color)" />
               </svg>
             </button>
-            <button class="post_like card__like-button button_effect">
+            <button class="post_like card__like-button button_effect" type="button">
               <span class="post_like_text button__text button_effect_text">Like</span>
             </button>
           </div>
@@ -378,133 +387,8 @@
       aria-controls="message">
       <svg class="save_memory_svg" width="28" height="28" viewBox="0 0 28 28" fill="none"
         xmlns="http://www.w3.org/2000/svg">
-        <rect width="2.15385" height="2.15385" fill="black" />
-        <rect y="2.1543" width="2.15385" height="2.15385" fill="black" />
-        <rect y="4.30762" width="2.15385" height="2.15385" fill="black" />
-        <rect y="6.46191" width="2.15385" height="2.15385" fill="black" />
-        <rect y="8.61523" width="2.15385" height="2.15385" fill="black" />
-        <rect y="10.7695" width="2.15385" height="2.15385" fill="black" />
-        <rect y="12.9229" width="2.15385" height="2.15385" fill="black" />
-        <rect y="15.0771" width="2.15385" height="2.15385" fill="black" />
-        <rect y="17.2305" width="2.15385" height="2.15385" fill="black" />
-        <rect y="19.3848" width="2.15385" height="2.15385" fill="black" />
-        <rect y="21.5381" width="2.15385" height="2.15385" fill="black" />
-        <rect y="23.6924" width="2.15385" height="2.15385" fill="black" />
-        <rect y="25.8457" width="2.15385" height="2.15385" fill="black" />
-        <rect x="23.6927" width="2.15385" height="2.15385" transform="rotate(90 23.6927 0)" fill="black" />
-        <rect x="21.5391" width="2.15385" height="2.15385" transform="rotate(90 21.5391 0)" fill="black" />
-        <rect x="19.3841" width="2.15385" height="2.15385" transform="rotate(90 19.3841 0)" fill="black" />
-        <rect x="17.2305" width="2.15385" height="2.15385" transform="rotate(90 17.2305 0)" fill="black" />
-        <rect x="15.0768" width="2.15385" height="2.15385" transform="rotate(90 15.0768 0)" fill="black" />
-        <rect x="12.9232" width="2.15385" height="2.15385" transform="rotate(90 12.9232 0)" fill="black" />
-        <rect x="10.7695" width="2.15385" height="2.15385" transform="rotate(90 10.7695 0)" fill="black" />
-        <rect x="8.61589" width="2.15385" height="2.15385" transform="rotate(90 8.61589 0)" fill="black" />
-        <rect x="6.46094" width="2.15385" height="2.15385" transform="rotate(90 6.46094 0)" fill="black" />
-        <rect x="4.3073" width="2.15385" height="2.15385" transform="rotate(90 4.3073 0)" fill="black" />
-        <rect x="25.8464" y="2.1543" width="2.15385" height="2.15385" transform="rotate(90 25.8464 2.1543)"
-          fill="black" />
-        <rect x="6.46094" y="4.30762" width="2.15385" height="2.15385" transform="rotate(90 6.46094 4.30762)"
-          fill="black" />
-        <rect x="6.46094" y="2.1543" width="2.15385" height="2.15385" transform="rotate(90 6.46094 2.1543)"
-          fill="black" />
-        <rect x="6.46094" y="6.46191" width="2.15385" height="2.15385" transform="rotate(90 6.46094 6.46191)"
-          fill="black" />
-        <rect x="21.5391" y="4.30762" width="2.15385" height="2.15385" transform="rotate(90 21.5391 4.30762)"
-          fill="black" />
-        <rect x="21.5391" y="2.1543" width="2.15385" height="2.15385" transform="rotate(90 21.5391 2.1543)"
-          fill="black" />
-        <rect x="21.5391" y="6.46191" width="2.15385" height="2.15385" transform="rotate(90 21.5391 6.46191)"
-          fill="black" />
-        <rect x="17.2305" y="4.30762" width="2.15385" height="2.15385" transform="rotate(90 17.2305 4.30762)"
-          fill="black" />
-        <rect x="17.2305" y="2.1543" width="2.15385" height="2.15385" transform="rotate(90 17.2305 2.1543)"
-          fill="black" />
-        <rect x="17.2305" y="6.46191" width="2.15385" height="2.15385" transform="rotate(90 17.2305 6.46191)"
-          fill="black" />
-        <rect x="21.5391" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 21.5391 8.61523)"
-          fill="black" />
-        <rect x="19.3841" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 19.3841 8.61523)"
-          fill="black" />
-        <rect x="17.2305" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 17.2305 8.61523)"
-          fill="black" />
-        <rect x="15.0768" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 15.0768 8.61523)"
-          fill="black" />
-        <rect x="12.9232" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 12.9232 8.61523)"
-          fill="black" />
-        <rect x="10.7695" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 10.7695 8.61523)"
-          fill="black" />
-        <rect x="8.61589" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 8.61589 8.61523)"
-          fill="black" />
-        <rect x="6.46094" y="8.61523" width="2.15385" height="2.15385" transform="rotate(90 6.46094 8.61523)"
-          fill="black" />
-        <rect x="23.6927" y="15.0771" width="2.15385" height="2.15385" transform="rotate(90 23.6927 15.0771)"
-          fill="black" />
-        <rect x="21.5391" y="15.0771" width="2.15385" height="2.15385" transform="rotate(90 21.5391 15.0771)"
-          fill="black" />
-        <rect x="19.3841" y="15.0771" width="2.15385" height="2.15385" transform="rotate(90 19.3841 15.0771)"
-          fill="black" />
-        <rect x="17.2305" y="15.0771" width="2.15385" height="2.15385" transform="rotate(90 17.2305 15.0771)"
-          fill="black" />
-        <rect x="15.0768" y="15.0771" width="2.15385" height="2.15385" transform="rotate(90 15.0768 15.0771)"
-          fill="black" />
-        <rect x="12.9232" y="15.0771" width="2.15385" height="2.15385" transform="rotate(90 12.9232 15.0771)"
-          fill="black" />
-        <rect x="10.7695" y="15.0771" width="2.15385" height="2.15385" transform="rotate(90 10.7695 15.0771)"
-          fill="black" />
-        <rect x="8.61589" y="15.0771" width="2.15385" height="2.15385" transform="rotate(90 8.61589 15.0771)"
-          fill="black" />
-        <rect x="6.46094" y="15.0771" width="2.15385" height="2.15385" transform="rotate(90 6.46094 15.0771)"
-          fill="black" />
-        <rect x="23.6927" y="17.2305" width="2.15385" height="2.15385" transform="rotate(90 23.6927 17.2305)"
-          fill="black" />
-        <rect x="6.46094" y="17.2305" width="2.15385" height="2.15385" transform="rotate(90 6.46094 17.2305)"
-          fill="black" />
-        <rect x="23.6927" y="19.3848" width="2.15385" height="2.15385" transform="rotate(90 23.6927 19.3848)"
-          fill="black" />
-        <rect x="6.46094" y="19.3848" width="2.15385" height="2.15385" transform="rotate(90 6.46094 19.3848)"
-          fill="black" />
-        <rect x="23.6927" y="21.5381" width="2.15385" height="2.15385" transform="rotate(90 23.6927 21.5381)"
-          fill="black" />
-        <rect x="6.46094" y="21.5381" width="2.15385" height="2.15385" transform="rotate(90 6.46094 21.5381)"
-          fill="black" />
-        <rect x="6.46094" y="23.6924" width="2.15385" height="2.15385" transform="rotate(90 6.46094 23.6924)"
-          fill="black" />
-        <rect x="23.6927" y="23.6924" width="2.15385" height="2.15385" transform="rotate(90 23.6927 23.6924)"
-          fill="black" />
-        <rect x="25.8464" y="25.8457" width="2.15385" height="2.15385" transform="rotate(90 25.8464 25.8457)"
-          fill="black" />
-        <rect x="23.6927" y="25.8457" width="2.15385" height="2.15385" transform="rotate(90 23.6927 25.8457)"
-          fill="black" />
-        <rect x="21.5391" y="25.8457" width="2.15385" height="2.15385" transform="rotate(90 21.5391 25.8457)"
-          fill="black" />
-        <rect x="19.3841" y="25.8457" width="2.15385" height="2.15385" transform="rotate(90 19.3841 25.8457)"
-          fill="black" />
-        <rect x="17.2305" y="25.8457" width="2.15385" height="2.15385" transform="rotate(90 17.2305 25.8457)"
-          fill="black" />
-        <rect x="15.0768" y="25.8457" width="2.15385" height="2.15385" transform="rotate(90 15.0768 25.8457)"
-          fill="black" />
-        <rect x="12.9232" y="25.8457" width="2.15385" height="2.15385" transform="rotate(90 12.9232 25.8457)"
-          fill="black" />
-        <rect x="10.7695" y="25.8457" width="2.15385" height="2.15385" transform="rotate(90 10.7695 25.8457)"
-          fill="black" />
-        <rect x="8.61589" y="25.8457" width="2.15385" height="2.15385" transform="rotate(90 8.61589 25.8457)"
-          fill="black" />
-        <rect x="6.46094" y="25.8457" width="2.15385" height="2.15385" transform="rotate(90 6.46094 25.8457)"
-          fill="black" />
-        <rect x="4.3073" y="25.8457" width="2.15385" height="2.15385" transform="rotate(90 4.3073 25.8457)"
-          fill="black" />
-        <rect x="28" y="28" width="2.15385" height="2.15385" transform="rotate(-180 28 28)" fill="black" />
-        <rect x="28" y="25.8457" width="2.15385" height="2.15385" transform="rotate(-180 28 25.8457)" fill="black" />
-        <rect x="28" y="23.6924" width="2.15385" height="2.15385" transform="rotate(-180 28 23.6924)" fill="black" />
-        <rect x="28" y="21.5381" width="2.15385" height="2.15385" transform="rotate(-180 28 21.5381)" fill="black" />
-        <rect x="28" y="19.3848" width="2.15385" height="2.15385" transform="rotate(-180 28 19.3848)" fill="black" />
-        <rect x="28" y="17.2305" width="2.15385" height="2.15385" transform="rotate(-180 28 17.2305)" fill="black" />
-        <rect x="28" y="15.0771" width="2.15385" height="2.15385" transform="rotate(-180 28 15.0771)" fill="black" />
-        <rect x="28" y="12.9229" width="2.15385" height="2.15385" transform="rotate(-180 28 12.9229)" fill="black" />
-        <rect x="28" y="10.7695" width="2.15385" height="2.15385" transform="rotate(-180 28 10.7695)" fill="black" />
-        <rect x="28" y="8.61523" width="2.15385" height="2.15385" transform="rotate(-180 28 8.61523)" fill="black" />
-        <rect x="28" y="6.46191" width="2.15385" height="2.15385" transform="rotate(-180 28 6.46191)" fill="black" />
-      </svg>
+        <use href="./svg/save_memory.svg#save_memory_icon"></use>
+       </svg>
       <span class="save_memory_desc button_effect_text">Сохранить на память</span>
     </button>
   </main>
@@ -513,92 +397,13 @@
     <div class="message_header">
       <svg class="message_svg" width="39" height="39" viewBox="0 0 39 39" fill="none"
         xmlns="http://www.w3.org/2000/svg">
-        <rect width="3" height="3" fill="black" />
-        <rect y="3" width="3" height="3" fill="black" />
-        <rect y="6" width="3" height="3" fill="black" />
-        <rect y="9" width="3" height="3" fill="black" />
-        <rect y="12" width="3" height="3" fill="black" />
-        <rect y="15" width="3" height="3" fill="black" />
-        <rect y="18" width="3" height="3" fill="black" />
-        <rect y="21" width="3" height="3" fill="black" />
-        <rect y="24" width="3" height="3" fill="black" />
-        <rect y="27" width="3" height="3" fill="black" />
-        <rect y="30" width="3" height="3" fill="black" />
-        <rect y="33" width="3" height="3" fill="black" />
-        <rect y="36" width="3" height="3" fill="black" />
-        <rect x="33" width="3" height="3" transform="rotate(90 33 0)" fill="black" />
-        <rect x="30" width="3" height="3" transform="rotate(90 30 0)" fill="black" />
-        <rect x="27" width="3" height="3" transform="rotate(90 27 0)" fill="black" />
-        <rect x="24" width="3" height="3" transform="rotate(90 24 0)" fill="black" />
-        <rect x="21" width="3" height="3" transform="rotate(90 21 0)" fill="black" />
-        <rect x="18" width="3" height="3" transform="rotate(90 18 0)" fill="black" />
-        <rect x="15" width="3" height="3" transform="rotate(90 15 0)" fill="black" />
-        <rect x="12" width="3" height="3" transform="rotate(90 12 0)" fill="black" />
-        <rect x="9" width="3" height="3" transform="rotate(90 9 0)" fill="black" />
-        <rect x="6" width="3" height="3" transform="rotate(90 6 0)" fill="black" />
-        <rect x="36" y="3" width="3" height="3" transform="rotate(90 36 3)" fill="black" />
-        <rect x="9" y="6" width="3" height="3" transform="rotate(90 9 6)" fill="black" />
-        <rect x="9" y="3" width="3" height="3" transform="rotate(90 9 3)" fill="black" />
-        <rect x="9" y="9" width="3" height="3" transform="rotate(90 9 9)" fill="black" />
-        <rect x="30" y="6" width="3" height="3" transform="rotate(90 30 6)" fill="black" />
-        <rect x="30" y="3" width="3" height="3" transform="rotate(90 30 3)" fill="black" />
-        <rect x="30" y="9" width="3" height="3" transform="rotate(90 30 9)" fill="black" />
-        <rect x="24" y="6" width="3" height="3" transform="rotate(90 24 6)" fill="black" />
-        <rect x="24" y="3" width="3" height="3" transform="rotate(90 24 3)" fill="black" />
-        <rect x="24" y="9" width="3" height="3" transform="rotate(90 24 9)" fill="black" />
-        <rect x="30" y="12" width="3" height="3" transform="rotate(90 30 12)" fill="black" />
-        <rect x="27" y="12" width="3" height="3" transform="rotate(90 27 12)" fill="black" />
-        <rect x="24" y="12" width="3" height="3" transform="rotate(90 24 12)" fill="black" />
-        <rect x="21" y="12" width="3" height="3" transform="rotate(90 21 12)" fill="black" />
-        <rect x="18" y="12" width="3" height="3" transform="rotate(90 18 12)" fill="black" />
-        <rect x="15" y="12" width="3" height="3" transform="rotate(90 15 12)" fill="black" />
-        <rect x="12" y="12" width="3" height="3" transform="rotate(90 12 12)" fill="black" />
-        <rect x="9" y="12" width="3" height="3" transform="rotate(90 9 12)" fill="black" />
-        <rect x="33" y="21" width="3" height="3" transform="rotate(90 33 21)" fill="black" />
-        <rect x="30" y="21" width="3" height="3" transform="rotate(90 30 21)" fill="black" />
-        <rect x="27" y="21" width="3" height="3" transform="rotate(90 27 21)" fill="black" />
-        <rect x="24" y="21" width="3" height="3" transform="rotate(90 24 21)" fill="black" />
-        <rect x="21" y="21" width="3" height="3" transform="rotate(90 21 21)" fill="black" />
-        <rect x="18" y="21" width="3" height="3" transform="rotate(90 18 21)" fill="black" />
-        <rect x="15" y="21" width="3" height="3" transform="rotate(90 15 21)" fill="black" />
-        <rect x="12" y="21" width="3" height="3" transform="rotate(90 12 21)" fill="black" />
-        <rect x="9" y="21" width="3" height="3" transform="rotate(90 9 21)" fill="black" />
-        <rect x="33" y="24" width="3" height="3" transform="rotate(90 33 24)" fill="black" />
-        <rect x="9" y="24" width="3" height="3" transform="rotate(90 9 24)" fill="black" />
-        <rect x="33" y="27" width="3" height="3" transform="rotate(90 33 27)" fill="black" />
-        <rect x="9" y="27" width="3" height="3" transform="rotate(90 9 27)" fill="black" />
-        <rect x="33" y="30" width="3" height="3" transform="rotate(90 33 30)" fill="black" />
-        <rect x="9" y="30" width="3" height="3" transform="rotate(90 9 30)" fill="black" />
-        <rect x="9" y="33" width="3" height="3" transform="rotate(90 9 33)" fill="black" />
-        <rect x="33" y="33" width="3" height="3" transform="rotate(90 33 33)" fill="black" />
-        <rect x="36" y="36" width="3" height="3" transform="rotate(90 36 36)" fill="black" />
-        <rect x="33" y="36" width="3" height="3" transform="rotate(90 33 36)" fill="black" />
-        <rect x="30" y="36" width="3" height="3" transform="rotate(90 30 36)" fill="black" />
-        <rect x="27" y="36" width="3" height="3" transform="rotate(90 27 36)" fill="black" />
-        <rect x="24" y="36" width="3" height="3" transform="rotate(90 24 36)" fill="black" />
-        <rect x="21" y="36" width="3" height="3" transform="rotate(90 21 36)" fill="black" />
-        <rect x="18" y="36" width="3" height="3" transform="rotate(90 18 36)" fill="black" />
-        <rect x="15" y="36" width="3" height="3" transform="rotate(90 15 36)" fill="black" />
-        <rect x="12" y="36" width="3" height="3" transform="rotate(90 12 36)" fill="black" />
-        <rect x="9" y="36" width="3" height="3" transform="rotate(90 9 36)" fill="black" />
-        <rect x="6" y="36" width="3" height="3" transform="rotate(90 6 36)" fill="black" />
-        <rect x="39" y="39" width="3" height="3" transform="rotate(-180 39 39)" fill="black" />
-        <rect x="39" y="36" width="3" height="3" transform="rotate(-180 39 36)" fill="black" />
-        <rect x="39" y="33" width="3" height="3" transform="rotate(-180 39 33)" fill="black" />
-        <rect x="39" y="30" width="3" height="3" transform="rotate(-180 39 30)" fill="black" />
-        <rect x="39" y="27" width="3" height="3" transform="rotate(-180 39 27)" fill="black" />
-        <rect x="39" y="24" width="3" height="3" transform="rotate(-180 39 24)" fill="black" />
-        <rect x="39" y="21" width="3" height="3" transform="rotate(-180 39 21)" fill="black" />
-        <rect x="39" y="18" width="3" height="3" transform="rotate(-180 39 18)" fill="black" />
-        <rect x="39" y="15" width="3" height="3" transform="rotate(-180 39 15)" fill="black" />
-        <rect x="39" y="12" width="3" height="3" transform="rotate(-180 39 12)" fill="black" />
-        <rect x="39" y="9" width="3" height="3" transform="rotate(-180 39 9)" fill="black" />
-      </svg>
+        <use href="./svg/save_memory.svg#save_memory_icon"></use>
+        </svg>
       <h2 class="message_text">Вставьте дискету, чтобы продолжить</h2>
     </div>
     <form method="dialog" class="message_form">
       <button class="message_button button_effect" type="submit">
-        <span class="message_button_text button_effect_text">ОК</span>
+        <span class="message_button_text button_effect_text">ok</span>
       </button>
     </form>
   </dialog>
