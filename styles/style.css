@@ -314,13 +314,11 @@
 }
 
 .save_memory_svg {
-  display: block;
   color: var(--accent-color);
   mix-blend-mode: difference;
 }
 
 .save_memory_desc {
-  display: block;
   margin-block-start: 8px;
   text-align: center;
 }
@@ -375,7 +373,7 @@
 
 /* стили для laptop -------------------------*/
 
-@media (inline-size >= 1440px) {
+@media (min-width: 1440px) {
   .header {
     padding: 130px 0 130px;
     inline-size: var(--content-size);
@@ -386,6 +384,7 @@
   }
 
   .save_memory {
+    display: flex;
     flex-direction: row;
     align-items: center;
     inline-size: 335px;
